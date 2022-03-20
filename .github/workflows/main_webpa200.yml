@@ -43,4 +43,4 @@ jobs:
           app-name: 'webpa200'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_80EB79977C1344938ADB0C11CD0D97B6 }}
-          package: .
+          package: ./src
